@@ -1,0 +1,10 @@
+
+.App{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.918);
+}
+
+.App .sections{
+  position: relative;
+  top: 70px;
+}

@@ -1,0 +1,42 @@
+
+.header{
+display: flex;
+font-family: 'Inter', sans-serif;
+width: 100%;
+position: fixed;
+height: 70px;
+top: 0;
+z-index: 2;
+}
+.l-header{
+    flex: 1;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    font-size: large;
+}
+.m-header{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.m-header p {
+    margin-left: 35px;
+    align-items: center;
+}
+.r-header{
+    flex: 1;
+}
+.r-header p{
+    width: 110px;
+    height: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.932);
+}

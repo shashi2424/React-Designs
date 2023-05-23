@@ -1,0 +1,39 @@
+.Card1{
+    width: 100%;
+    height: 660px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.company{
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif; 
+    font-size: 48px;
+    font-weight: 10px;
+    max-width: 600px;
+    color: white;
+}
+
+.award{
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif; 
+    color: gray;
+    font-weight: bold;
+    max-width: 560px;
+}
+.companyLogos{
+    margin-top: 45px;
+    margin-left: 10px;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+.companyLogos svg{
+    justify-items: end;
+    padding-right: 90px;
+
+}
+.lcard2{
+    padding-left: 60px;
+}
