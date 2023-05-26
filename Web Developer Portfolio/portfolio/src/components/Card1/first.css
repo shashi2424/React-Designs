@@ -2,6 +2,7 @@
     width: 100%;
     height: 660px;
     margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.918);
     margin-right: 50px;
 }
 
@@ -9,6 +10,7 @@
     padding-top: 20px;
     font-family: 'Inter', sans-serif; 
     font-size: 48px;
+    margin-left: 4rem;
     font-weight: 10px;
     max-width: 600px;
     color: white;
@@ -19,11 +21,12 @@
     font-family: 'Inter', sans-serif; 
     color: gray;
     font-weight: bold;
+    margin-left: 4rem;
     max-width: 560px;
 }
 .companyLogos{
     margin-top: 45px;
-    margin-left: 10px;
+    margin-left: 4rem;
     justify-items: center;
     justify-content: space-between;
 
@@ -34,6 +37,10 @@
     padding-right: 90px;
 
 }
+.lcard1{
+    margin-left: 4rem;
+}
+
 .lcard2{
-    padding-left: 60px;
+    padding-left: 20px;
 }
