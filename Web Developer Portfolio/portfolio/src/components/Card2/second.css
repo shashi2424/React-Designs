@@ -1,6 +1,6 @@
 .Card2{
     width: 100%;
-    height: 620px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.918);
     display: flex;
     position: relative;
@@ -87,3 +87,15 @@
     font-weight: bold;
     max-width: 500px;
 }
+
+@media screen and (max-width: 768px) {
+    .Card2{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .lcard2 .arrow{
+        left: 40%;
+        top: 5%;
+    }
+  }

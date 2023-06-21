@@ -1,5 +1,64 @@
 .Card3{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.918);
     width: 100%;
-    height: 250px;
+    height: 290px;
+    position: relative;
+}
+
+.interested{
+    position: absolute;
+    color: white;
+    left: 7.2%;
+    font-size: 42px;
+    font-family: 'Inter', sans-serif; 
+}
+
+.active1{
+    position: absolute;
+    left: 7.5%;
+    top:28%; 
+    font-family: 'Inter', sans-serif; 
+    max-width: 450px;
+    color: gray;
+
+}
+
+.touch p{
+    position: absolute;
+    left: 7.5%;
+    top:55%; 
+    width: 110px;
+    height: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.932);
+}
+
+.gbackground{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: space-between;
+    background-color:rgba(161, 161, 161, 0.377);
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.gbackground .footer{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    left: 7.5%;
+}
+
+.gbackground .social{
+    position: absolute;
+    display: flex;
+    right: 10%;
+    gap: 17px;
+    align-items: center;
+    justify-content:space-around 20px;
 }

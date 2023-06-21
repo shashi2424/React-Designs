@@ -83,7 +83,7 @@ function FirstCard() {
                     </defs>
                 </svg>
             </div>
-            <div className="carousel" style={{ display: 'flex', paddingTop: '50px' }}>
+            <div className="carousel" >
                 <div className="lcard1">
                     <img src={Image1} alt="first" />
                 </div>

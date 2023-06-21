@@ -44,3 +44,38 @@
 .lcard2{
     padding-left: 20px;
 }
+.carousel{
+  display: flex;
+  padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+    .Card1{
+        height: 980px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.918);
+
+    }
+  .company{
+    display: flex;
+    max-width: 500px;
+  }
+  .award{
+    display: flex;
+    max-width: 440px;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    left: 7%;
+  }
+  .carousel .lcard1{
+    max-width: 250px;
+  }
+  .carousel .lcard2{
+    max-width: 250px;
+    margin-left: 2.8rem;
+    padding-top: 5px;
+
+  }
+  }
